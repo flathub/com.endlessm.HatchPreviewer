@@ -1,9 +1,9 @@
 {
     "app-id": "com.endlessm.HatchPreviewer",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
+    "runtime-version": "20.08",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "18.08",
+    "base-version": "20.08",
     "branch": "stable",
     "sdk": "org.freedesktop.Sdk",
     "command": "hatch-previewer",
@@ -22,6 +22,7 @@
         }
     },
     "modules": [
+        "shared-modules/python2.7/python-2.7.json",
         {
             "name": "nodejs",
             "cleanup": [
