@@ -1,0 +1,24 @@
+From 27cf6ff4e6de36eb9a7f39ed0bd1d339becef5cd Mon Sep 17 00:00:00 2001
+From: bbhtt <bbhtt.zn0i8@slmail.me>
+Date: Fri, 15 Sep 2023 10:55:16 +0530
+Subject: [PATCH] Fix appdata
+
+---
+ main/com.endlessm.HatchPreviewer.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/main/com.endlessm.HatchPreviewer.appdata.xml b/main/com.endlessm.HatchPreviewer.appdata.xml
+index 37fa144..03c00ae 100644
+--- a/main/com.endlessm.HatchPreviewer.appdata.xml
++++ b/main/com.endlessm.HatchPreviewer.appdata.xml
+@@ -27,6 +27,7 @@
+   <releases>
+     <release date="2018-04-20" version="0.0.6">
+       <description>
++      <p>Changes:</p>
+         <ul>
+           <li>Start with the first asset selected</li>
+           <li>Update dependencies with security issues</li>
+--
+2.41.0
+
